@@ -1,0 +1,19 @@
+.pin.small {
+    grid-row-end: span 26;
+  }
+
+.pin.medium {
+    grid-row-end: span 33;
+  }
+.pin.large {
+    grid-row-end: span 45;
+  }
+  
+  
+ .pin:hover .content {
+    bottom: 0;
+    transition: bottom 0.3s;
+    padding: 10px 20px 8px;    
+} 
+  
+

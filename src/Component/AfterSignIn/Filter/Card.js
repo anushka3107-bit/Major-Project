@@ -18,7 +18,7 @@ const Card = ({ imgURL, title }) => {
 
   const getBackgroundColor = getRandomColor();
 
-  const [ backgroundColor, setBackgroundColor] = useState(getBackgroundColor);
+  const [setBackgroundColor] = useState(getBackgroundColor);
 
   const handleMouseEnter = () => {
     setBackgroundColor("#F8F1F1");

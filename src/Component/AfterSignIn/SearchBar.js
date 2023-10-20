@@ -1,18 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import { BiSearchAlt } from "react-icons/bi";
 import { BsBellFill } from "react-icons/bs";
 import { BsSun } from "react-icons/bs";
 import { motion } from "framer-motion";
 
 const SearchBar = () => {
-  let [isOpen, setIsOpen] = useState(false);
-  function closeModal() {
-    setIsOpen(false);
-  }
-
-  function openModal() {
-    setIsOpen(true);
-  }
+ 
   return (
     <>
       <div className="bg-cSearchBar flex justify-between w-full h-20 shadow-[0px_5px_20px_rgba(0,0,0,0.15)] ">

@@ -1,7 +1,7 @@
 import React from "react";
 import "./pin.css";
 import { FiUpload } from "react-icons/fi";
-import { BsThreeDots } from "react-icons/bs";
+
 
 function Pin({ pinSize, imgSrc, name, link }) {
   return (

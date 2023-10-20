@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { filterdata } from "../../../data/filterdata";
 import Card from "./Card";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
